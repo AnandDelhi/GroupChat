@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+
+html,
+body {
+  margin: 0;
+  background-color: azure;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  height: 3rem;
+  font-size: 2rem;
+  font-family: "Nunito", sans-serif;
+}
+
+.logoutBtn {
+  position: absolute;
+  top: 12px;
+  right: 5px;
+  border-radius: 100px;
+  border: none;
+  background-color: pink;
+  font-family: "Nunito", sans-serif;
+}
+
+.inputField {
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: rgb(142, 142, 247);
+}
+.textBox {
+  width: 85vw;
+  border-radius: 10px;
+  border: none;
+  margin-right: 5px;
+}
+.sendButton {
+  font-family: "Nunito", sans-serif;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  background-color: rgb(53, 238, 229);
+}
+
+.messageTrail {
+  width: 100vw;
+  height: 87vh;
+  font-family: "Nunito", sans-serif;
+  overflow-y: hidden;
+}
+
+.box {
+  display: block;
+}
+
+.inputField {
+  position: relative;
+  display: flex;
+}
+
+.incomingMessage {
+  /* border: 2px solid black; */
+  width: fit-content;
+  /* border-radius: 10px; */
+  padding: 10px;
+}
+
+.outgoingMessage {
+  /* border: 2px solid black; */
+
+  /* border-radius: 10px; */
+  padding: 10px;
+}
+.outgoingMessageText {
+  position: relative;
+  right: 0;
+  text-align: end;
+  font-size: 2rem;
+}
+.incomingMessageText {
+  font-size: 2rem;
+}

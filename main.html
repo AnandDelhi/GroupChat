@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="navbar box">Group Chat</div>
+    <button class="logoutBtn">Log out</button>
+
+    <div class="messageTrail box" id="thread">
+      <div class="incomingMessage" id="1">
+        <div class="messageLabel">Rancho</div>
+        <div class="incomingMessageText">Hello</div>
+      </div>
+      <div class="incomingMessage" id="2">
+        <div class="messageLabel">Raju</div>
+        <div class="incomingMessageText">Hello</div>
+      </div>
+      <div class="incomingMessage" id="3">
+        <div class="messageLabel">Farhan</div>
+        <div class="incomingMessageText">Hello</div>
+      </div>
+      <div class="outgoingMessage">
+        <div class="outgoingMessageText">Hello</div>
+      </div>
+    </div>
+
+    <div class="inputField box">
+      <div class="inputMessage">
+        <input
+          placeholder="Welcome Farhan, say Hi to others"
+          class="textBox"
+          type="text"
+          id="t1"
+        />
+      </div>
+      <div class="sendButtonDiv"><button class="sendButton">Send</button></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
